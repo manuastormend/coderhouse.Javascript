@@ -1,0 +1,66 @@
+.videoclub,
+.textoaux {
+    font-weight: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000a23;
+    text-align: center;
+}
+
+hr {
+    align-items: center;
+    color: #02253d;
+}
+
+.contenedor {
+    background-color: #7498b6;
+    display: block;
+    width: auto;
+    height: 600px;
+}
+
+.pedirGenero {
+    background-color: #557996;
+    color:#000a23;
+    border-radius: 8px 10px;
+    border-width: 0ch;
+    font-weight: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pedirGenero:hover {
+    cursor: pointer;
+    background-color: #0f293e;
+    color:azure;
+    border-radius: 8px 10px;
+    border-width: 0ch;
+    font-weight: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.peliculas{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+    
+}
+
+.card {
+    align-self: flex-start;
+  position: relative;
+  width: 325px;
+  min-width: 275px;
+  margin: 1.25rem 0.75rem;
+  background: white;
+}
+
+.card-imagen{
+    width: 100%;
+    height: var(--card-img-height);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
