@@ -1,0 +1,109 @@
+.videoclub,
+.textoaux {
+    font-weight: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000a23;
+}
+
+.videoclub{
+    float: left;
+}
+.logo{
+    float: left;
+    max-width: 70px;
+    max-height: 70px;
+    margin-top: 0px;
+}
+h1{
+    margin-top: 0px;
+    padding-top: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(left top, red, black);
+    background: linear-gradient(to bottom right, red, black);
+    background-clip: border-box;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;  
+}   
+
+.solicitudes,.pedirGenero,.contactobtn,.inicio{
+    float: right;
+    float: top;
+    background-color: #F1B2A5;
+    color:#BB472F;
+    border: none;
+}
+
+header{
+    font-size: large;
+    padding-bottom: 30px;
+    transition: 2s;
+}
+hr {
+    display: block;
+    align-items: center;
+    color: #02253d;
+}
+
+.solicitudes:hover,.pedirGenero:hover,.contactobtn:hover,.inicio:hover {
+    cursor: pointer;
+    background-color: #bb7465;
+    color:azure;
+    
+}
+
+.peliculas{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  
+
+}
+
+.peliculasSolicitadas{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+
+
+}
+.hide{
+    opacity: 0;
+    /* position: relative; */
+}
+
+.btnAlquilar{
+
+    background-color: #bb7465;
+    color:azure;
+    align-self: auto;
+    border-color: #913c2b;
+}
+.card {
+  box-sizing:content-box;
+  position: relative;
+  width: 225px;
+  height: 500px;
+  margin: 1.25rem 0.75rem;
+  background: #F1B2A5;
+  margin-top: 8px;
+  padding: 0 4px;
+  border-radius: 10px;
+
+}
+
+.card-imagen{
+    width: 100%;
+    height: var(--card-img-height);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
